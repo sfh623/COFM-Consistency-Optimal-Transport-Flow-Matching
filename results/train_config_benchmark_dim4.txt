@@ -1,0 +1,13 @@
+Training configuration:
+Device: cuda:0
+Num samples: 1024
+Iterations: 200000
+Batch size: 1024
+dim: 4
+Learning rate: 0.001
+Hidden layers: 8
+Hidden dim: 1024
+Activation function: <function Activations.symm_softplus at 0x76a9d20bd430>
+Log interval: 20
+Vis interval: 1000
+L2-UVP forward (% of variance): 0.5567Total training time: 30354.80 seconds
