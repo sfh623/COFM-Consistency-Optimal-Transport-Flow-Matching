@@ -1,0 +1,23 @@
+# configs/icnn_flow.yaml
+
+NAME: icnn_flow
+
+CUSTOM_FLOW:
+  model: ICNN2           
+  args:
+    dim: 128
+    dim_t: 1
+    dimh: 1024
+    num_hidden_layers: 5
+    act_fn: ssp
+    batch_size: 1024
+
+TRAIN:
+  type: custom_flow
+  iterations: 200000
+  save_interval: 5000
+  log_interval: 20
+  lr: 1e-3
+  batch_size: 1024
+
+OUTPUT_DIR: training_artifacts/icnn_flow_img
