@@ -18,6 +18,8 @@ The code has been tested with Python 3.7 and the following packages:
 - yacs  
 - matplotlib  
 # 😊Getting Started
+All experiments were conducted on a single NVIDIA RTX A6000 GPU.
+
 The notebooks for Illustrative 2D Gaussian->Eight Gaussians experiments:
 ```bash
 .\8gaussiantest.ipynb
